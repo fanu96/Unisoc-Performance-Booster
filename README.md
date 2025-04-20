@@ -10,7 +10,7 @@
 
 ## 🚀 Description
 
-**UNISOC Performance Boost** is a set of ultimate performance tweaks tailored for Unisoc-powered devices. It provides:
+**UNISOC Performance Boost** is a set of ultimate performance tweaks tailored for Unisoc-powered devices, specifically made for and tested on the tiger series. It provides:
 
 - 🔧 GPU frequency control  
 - 🌡️ Thermal management for better sustained performance  
