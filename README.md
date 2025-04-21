@@ -2,8 +2,8 @@
 
 **ID:** `unisoc_optimizer`  
 **Name:** UNISOC Performance Boost  
-**Version:** v1.0  
-**Version Code:** 1  
+**Version:** v1.1  
+**Version Code:** 11  
 **Author:** Fanuel  
 
 ---
