@@ -1,0 +1,79 @@
+# UNISOC CORE BOOST
+ro.product.model=CPH2655
+ro.product.manufacturer=OnePlus
+persist.sys.sprd.perf=3
+persist.sys.sprd.core=8
+ro.sprd.freq.limit=0
+persist.sys.cpuset.enable=1
+
+# GPU TUNING
+persist.sys.sprd.gpu.boost=2
+debug.sf.gpu_comp_tiling=1
+persist.sys.sprd.texture.size=4096
+persist.sys.sprd.refresh.rate=90
+ro.sprd.game.fps_lock=90
+debug.egl.hw=1
+debug.composition.type=gpu
+video.accelerate.hw=1
+ro.surface_flinger.max_frame_buffer_acquired_buffers=2
+ro.surface_flinger.vsync_event_phase_offset_ns=0
+debug.hwui.renderer=skiagl
+debug.egl.swapinterval=-60
+view.scroll_friction=0.008
+ro.min.fling_velocity=12000
+ro.max.fling_velocity=25000
+persist.sys.ui.hw=1
+view.minimum_fling_velocity=12000
+persist.gpu.boost=1
+persist.gpu.rendermode=1
+ro.vendor.gpu.boost=2
+
+# THERMAL MANAGEMENT
+persist.sys.thermal.spreadtrum=80
+ro.sprd.thermal.policy=game
+persist.sys.sprd.thermal.control=2
+
+# MEMORY OPTIMIZATION
+ro.sprd.zram.enable=1
+ro.sprd.zram.size=2048
+ro.sprd.purgeable_assets=1
+
+# TOUCH RESPONSE
+persist.sys.touch.sensitivity=11
+ro.touch.sample.rate=133
+persist.sys.sprd.touch.boost=1
+
+# NETWORK
+ro.wifi.txpower.lmt=2000
+persist.wifi.txpower.boost=1
+ro.wifi.rx_gaintbl.lmt=1
+persist.wifi.recv.buffersize=32768
+net.wifi.powersave=0
+persist.wifi.suspend_optimization=0
+persist.sys.sprd.wifi.boost=1
+ro.sprd.net.dns=1.1.1.1
+net.ipv4.tcp_timestamps=0
+net.ipv4.tcp_tw_reuse=1
+net.ipv4.tcp_sack=0
+net.ipv4.tcp_dsack=0
+net.tcp.delayed_ack=0
+net.tcp.low_latency=1
+net.ipv4.tcp_rmem=4096 87380 256960
+net.ipv4.tcp_wmem=4096 16384 256960
+wifi.supplicant_scan_interval=300   # Reduce Wi-Fi scanning
+ro.ril.enable.sdr=1
+ro.ril.enable.a53=1
+# RENDERING
+debug.sf.sprd_dither=0
+persist.sys.sprd.display.enhance=0
+ro.sprd.fps.stabilize=1
+
+# AUDIO/VIDEO
+media.sprd.hwdecoder=1
+persist.sys.sprd.audio.boost=1
+ro.sprd.bluetooth.latency=1
+
+# GAME PROFILE
+persist.sys.sprd.game.pubg=1
+ro.sprd.game.resolution=720
+persist.sys.sprd.texture.quality=low

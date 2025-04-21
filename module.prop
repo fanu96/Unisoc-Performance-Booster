@@ -1,0 +1,6 @@
+id=unisoc_optimizer
+name=UNISOC Performance Boost
+version=v1.0
+versionCode=1
+author=By Fanuel
+description=Ultimate performance tweaks for Unisoc devices with GPU frequency control and thermal management, Add your game in service.sh file along with the others.
